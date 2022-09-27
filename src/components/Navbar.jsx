@@ -6,13 +6,9 @@ const Navbar = () => {
         <div className="navbar_left">
             <h1>Flag Guesser</h1>
         </div>
-        <div className="navar_right">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+        <div className="navbar_right">
+            <ul className='navbar_right_list'>
+                <li>Options</li>
             </ul>
         </div>
     </div>
