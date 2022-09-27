@@ -1,3 +1,6 @@
+import React from "react";
+import './styles/App.scss';
+
 import Game from "./components/Game";
 import Navbar from "./components/Navbar";
 

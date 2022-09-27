@@ -1,0 +1,40 @@
+@use '../variables/Variables.scss';
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 2rem 5rem;
+
+    width: 100%;
+    color: white;
+    background-color: Variables.$accentColor;
+
+}
+
+.navbar_left{
+
+    h1{
+        font-size: 2rem;
+    }
+
+}
+
+.navbar_right{
+
+    .navbar_right_list{
+        list-style: none;
+
+
+        &:hover{
+            cursor: pointer;
+        }
+
+
+        li{
+            
+        }
+    }
+
+}

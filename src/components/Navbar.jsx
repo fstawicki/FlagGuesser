@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+
+import '../styles/Navbar.scss';
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='navbar'>
         <div className="navbar_left">
             <h1>Flag Guesser</h1>
         </div>
