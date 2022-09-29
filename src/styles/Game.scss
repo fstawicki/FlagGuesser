@@ -33,6 +33,7 @@
 .image{
     width: 400px;
     height: 250px;
+    border: 1px solid black;
 }
 
 
@@ -43,6 +44,10 @@
     font-size: 1rem;
     padding: 1rem;
     background-color: transparent;
+
+    &:hover{
+        cursor: pointer;
+    }
 }
 
 @media (max-width: 500px){
